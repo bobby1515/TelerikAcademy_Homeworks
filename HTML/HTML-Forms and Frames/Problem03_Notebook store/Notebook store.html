@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Notebook store </title>
+    <style>
+        body {
+            margin: 4px;
+            font-family: Corbel, sans-serif;
+        }
+        
+        a {
+            color: #38c0f3;
+            font-weight: bold;
+        }
+        
+        img {
+            width: 70px;
+        }
+        
+        body>table {
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+        
+        td,
+        th {
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 3px;
+        }
+        
+        thead,
+        th {
+            word-spacing: 5px;
+            border-bottom: 2px solid black;
+        }
+        
+        table,
+        tbody {
+            border: black solid 2px;
+        }
+        
+        table:nth-child(2) {
+            border: none
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th colspan="2">
+                <a href="http://www.applecomputers.com">Apple</a>
+                <a href="http://www.toshibacomputers.com">Toshiba</a>
+                <a href="http://www.lenovocomputers.com">Lenovo</a>
+                <a href="http://www.dellcomputers.com">Dell</a>
+                <a href="http://www.asuscomputers.com">Asus</a>
+                <a href="http://www.hacercomputers.com">Hacer</a>
+                <a href="http://www.hpcomputers.com">HP</a>
+            </th>
+        </thead>
+        <tr>
+            <td rowspan="10">
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <table cellpadding="1" cellspacing="0">
+                                    <tr>
+                                        <td rowspan="2"><img src="Notebook.png" alt="MacBook picture"></td>
+                                        <td>64 GB SSD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2 GB DDR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1300 USD</td>
+                                        <td>Intel Core i5</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <table cellpadding="1" cellspacing="0">
+                                    <tr>
+                                        <td rowspan="2"><img src="Notebook.png" alt="MacBook picture"></td>
+                                        <td>64 GB SSD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB DDR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1300 USD</td>
+                                        <td>Intel Core i5</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <table cellpadding="1" cellspacing="0">
+                                    <tr>
+                                        <td rowspan="2"><img src="Notebook.png" alt="MacBook picture"></td>
+                                        <td>64 GB SSD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2 GB DDR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1300 USD</td>
+                                        <td>Intel Core i5</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <table cellpadding="1" cellspacing="0">
+                                    <tr>
+                                        <td rowspan="2"><img src="Notebook.png" alt="MacBook picture"></td>
+                                        <td>64 GB SSD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB DDR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1300 USD</td>
+                                        <td>Intel Core i5</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <table cellpadding="1" cellspacing="0">
+                                    <tr>
+                                        <td rowspan="2"><img src="Notebook.png" alt="MacBook picture"></td>
+                                        <td>64 GB SSD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2 GB DDR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1300 USD</td>
+                                        <td>Intel Core i5</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <table cellpadding="1" cellspacing="0">
+                                    <tr>
+                                        <td rowspan="2"><img src="Notebook.png" alt="MacBook picture"></td>
+                                        <td>64 GB SSD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2GB DDR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1300 USD</td>
+                                        <td>Intel Core i5</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form name="priceminform">
+                    <p>Min price:
+                        <output name="priceminOutputName" id="priceminOutputId">500</output> USD</p>
+                    <input type="range" name="priceminInputName" id="priceminInputId" value="500" min="0" max="1000" oninput="priceminOutputId.value = priceminInputId.value">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form name="priceminform">
+                    <p>Min price:
+                        <output name="priceminOutputName" id="priceminOutputId1">500</output> USD</p>
+                    <input type="range" name="priceminInputName" id="priceminInputId1" value="500" min="0" max="1000" oninput="priceminOutputId.value = priceminInputId.value">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form name="rammaxform">
+                    <p>Max RAM:
+                        <output name="rammaxOutputName" id="rammaxOutputId">16</output> GB</p>
+                    <input type="range" name="rammaxInputName" id="rammaxInputId" value="16" min="4" max="28" oninput="rammaxOutputId.value = rammaxInputId.value">
+                </form>
+            </td>
+            <tr>
+                <td>
+                    <form name="rammaxform">
+                        <p>Max RAM:
+                            <output name="rammaxOutputName" id="rammaxOutputId">16</output> GB</p>
+                        <input type="range" name="rammaxInputName" id="rammaxInputId" value="16" min="4" max="28" oninput="rammaxOutputId.value = rammaxInputId.value">
+                    </form>
+                </td>
+            </tr>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Registration form</title>
+	<style>
+		body {
+			font-family: Arial;
+			font-size: 14px;
+		}
+		table {
+			border-collapse: collapse;
+			width: 37%;
+		}
+		
+		table,
+		td,
+		th {
+			border: 2px solid ridge grey;
+			text-align: left;
+		}
+		
+		th:first-child {
+			text-align: right;
+			width: 10em;
+		}
+		
+		td:first-child {
+			text-align: center;
+			background-color: #D1EDE1;
+			padding: 6px;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="" method="get">
+		<table>
+			<thead></thead>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td colspan="3"><input type="text" size="35" placeholder="Nakov"></td>
+				</tr>
+				<tr>
+					<th>First Name</th>
+					<td colspan="3"><input type="text" size="35" placeholder="Svetlin" /></td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td colspan="3"><textarea name="Address" id="Address" cols="35" rows="2" placeholder="17 Hristo Botev Str. &nbsp &nbsp &nbsp &nbsp &nbsp floor 3, apt. 12"></textarea></td>
+				</tr>
+				<tr>
+					<th>City</th>
+					<td><input type="text" size="20" placeholder="Kaspichan" /></td>
+					<th>State</th>
+					<td><input type="text" size="1"></td>
+				</tr>
+				<tr>
+					<th>Zip/Postal Code</th>
+					<td colspan="3"><input type="text" size="5" placeholder="9325"></td>
+				</tr>
+				<tr>
+					<th>Country</th>
+					<td colspan="3">
+						<select name="Country" id="Country">
+                           <option value="Swiden">Swiden</option>
+                           <option value="Bulgaria" selected="Bulgaria">Bulgaria</option>
+                           <option value="Other">Some other country</option>
+                        </select>
+					</td>
+				</tr>
+				<tr>
+					<th>Phone (country code, area code, number)</th>
+					<td colspan="3">(+ <input type="tel" size="1" placeholder="359" /> ) <input type="tel" size="1" placeholder="88" /> - <input type="tel"
+							size="11" placeholder="8334343" /></td>
+				</tr>
+				<tr>
+					<th>E-mail</th>
+					<td colspan="3"><input type="email" placeholder="nakov@kaspichan.org" /></td>
+				</tr>
+				<tr>
+					<th>Birth date</th>
+					<td colspan="3">Month <input type="text" size="1" placeholder="06"> Day <input type="text" size="1" placeholder="14"> Year (4 digit)<input type="text" size="1" placeholder="1980"/></td>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<td colspan="3">
+						<select name="Gender" id="Gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Undecided">Undecided</option>
+                        </select>
+					</td>
+				</tr>
+				<tr>
+					<th>Starting date</th>
+					<td colspan="3"><input type="radio" name="semester" id="spring_2006" value="Spring_2006"><label for="spring_2006">Spring 2006</label>
+						<input type="radio" name="semester" id="summer_2006" value="Summer_2006"><label for="spring_2006">Summer 2006</label>
+					</td>
+				</tr>
+				<tr>
+					<th>Comments/Questions</th>
+					<td colspan="3"><textarea name="comments" id="comments" cols="35" rows="5" placeholder="Please send me more information about the lodging"></textarea></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4"><input type="submit" value="Submit" alt="Submit" autofocus/>
+<input type="reset" value="Clear This Form"> </td>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+</body>
+
+</html>
