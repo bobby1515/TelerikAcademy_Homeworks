@@ -1,0 +1,47 @@
+body {
+    background-color: #A9A9A9;
+    padding: 35px;
+}
+
+body > header h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+nav, ul, li a {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+li:last-of-type {
+    text-decoration: underline;
+}
+
+a.current {
+    background-color: #D3D3D3;
+}
+
+section, article, header h1 {
+    color: #FAFAD2;
+    text-align: left;
+    font-size: 25px;
+}
+
+p {
+    font-size: 12px;
+}
+
+footer, p, a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px
+}

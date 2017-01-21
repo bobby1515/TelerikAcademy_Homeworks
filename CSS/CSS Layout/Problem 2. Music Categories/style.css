@@ -1,0 +1,86 @@
+body, article, div, h1, img, p, button {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .main {
+    width: 425px;
+    height: 538px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+    padding: 10px 10px 25px 15px;
+    box-sizing: border-box;
+}
+
+img {
+    margin-right: 15px;
+    float: left;
+    border: solid 1px #aaa;
+}
+
+h1 {
+    font-size: 17px;
+    margin-bottom: 32px;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+article {
+    width: 368px;
+    height: 90px;
+    background-color: #fff;
+    border: 1px solid #BEBEBE;
+    padding: 15px;
+    margin-bottom: 35px;
+}
+
+p {
+    font-size: 0.84rem;
+}
+
+.buttons {
+    position: relative;
+    top: 18px;
+    left: 70px;
+}
+
+.listen {
+    background-image: url('images/listen.png');
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 22px;
+    border: 2px solid grey;
+    border-style: outset;
+    color: white;
+}
+
+.add {
+    background-image: url("images/add.png");
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 22px;
+    border: 2px solid grey;
+    border-style: outset;
+    color: white;
+}
+
+.listen:hover {
+    background-image: url('images/listen-hover.png');
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 22px;
+    border: 2px solid gray;
+    color: black;
+    border-style: inset;
+}
+
+.add:hover {
+    background-image: url("images/add-hover.png");
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 22px;
+    border: 2px solid grey;
+    color: black;
+    border-style: inset;
+}

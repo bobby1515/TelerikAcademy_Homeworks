@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: Calibri;
+    font-size: 12px;
+    width: 456px;
+    height: 132px;
+}
+
+table, tr td {
+    border-collapse: collapse;
+    border: 1px solid #C4C3A8;
+    text-align: left;
+    padding: 4px 10px 4px 8px;
+}
+
+thead tr td {
+    background-color: #58BB06;
+    color: #FFFFFF;
+}
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+tr td:nth-child(3) {
+
+    bottom: 4px;
+}
+
+.germany:before {
+    content: url(germany.png);
+    padding-right: 8px;
+}
+
+.mexico:before {
+    content: url(mexico.png);
+    padding-right: 8px;
+}
+
+.uk:before {
+    content: url(uk.png);
+    padding-right: 8px;
+}
+
+span {
+    position: relative;
+    bottom: 4px;
+}
+.streching {
+    font-stretch: ultra-expanded;
+}

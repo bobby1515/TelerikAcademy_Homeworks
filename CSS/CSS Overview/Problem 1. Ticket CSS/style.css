@@ -1,0 +1,65 @@
+     * {
+         margin: 0;
+         padding: 0;
+     }
+     
+     body {
+         font-family: sans-serif;
+     }
+     
+     div {
+         background: #595959;
+         width: 304px;
+         height: 205px;
+         padding: 5px;
+     }
+     
+     dl {
+         font-size: 1.2em;
+         color: darkgray;
+         padding-bottom: 15px;
+     }
+     
+     dt {
+         display: inline;
+         font-style: italic;
+         font-size: 0.72em;
+         position: absolute;
+         color: #D6DED3;
+     }
+     
+     dd {
+         text-align: left;
+         padding-left: 120px;
+         font-size: 0.72em;
+         padding-bottom: 16px;
+         color: #E4E8B1;
+     }
+     
+     .name {
+         padding-bottom: 2px;
+     }
+     
+     .name:before {
+         padding: 3px;
+         content: url(roundel.png);
+     }
+     
+     .support {
+         color: #BE140C;
+         font-weight: bold;
+     }
+     
+     .status {
+         color: #B06923;
+         font-weight: bold;
+     }
+     
+     a {
+         text-decoration: none;
+         color: #E4E8B1;
+     }
+     
+     .title {
+         color: #76899B;
+     }

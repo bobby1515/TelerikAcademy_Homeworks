@@ -1,0 +1,22 @@
+body, nav, ul, li, span {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    margin: 4px;
+} 
+ul {
+    list-style: none;
+}
+li {
+    display: none;
+}
+span:hover {
+    text-decoration: underline;
+}
+ul:hover li {
+    display: block;
+    color: #C5B3A6;
+  text-indent: 10px;
+}

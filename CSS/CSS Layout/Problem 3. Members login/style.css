@@ -1,0 +1,117 @@
+body, div, form, p, a, input, article {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 662px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#806850+0,3b3b3b+1,3b3b3b+22,373737+31,383838+34,353535+35,323232+42,2d2d2d+46,252525+49,3b3b3b+50,3b3b3b+97,3e3e3e+99,393939+100 */
+    background: rgb(128, 104, 80);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(128, 104, 80, 1) 0%, rgba(59, 59, 59, 1) 1%, rgba(59, 59, 59, 1) 22%, rgba(55, 55, 55, 1) 31%, rgba(56, 56, 56, 1) 34%, rgba(53, 53, 53, 1) 35%, rgba(50, 50, 50, 1) 42%, rgba(45, 45, 45, 1) 46%, rgba(37, 37, 37, 1) 49%, rgba(59, 59, 59, 1) 50%, rgba(59, 59, 59, 1) 97%, rgba(62, 62, 62, 1) 99%, rgba(57, 57, 57, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(128, 104, 80, 1) 0%, rgba(59, 59, 59, 1) 1%, rgba(59, 59, 59, 1) 22%, rgba(55, 55, 55, 1) 31%, rgba(56, 56, 56, 1) 34%, rgba(53, 53, 53, 1) 35%, rgba(50, 50, 50, 1) 42%, rgba(45, 45, 45, 1) 46%, rgba(37, 37, 37, 1) 49%, rgba(59, 59, 59, 1) 50%, rgba(59, 59, 59, 1) 97%, rgba(62, 62, 62, 1) 99%, rgba(57, 57, 57, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(128, 104, 80, 1) 0%, rgba(59, 59, 59, 1) 1%, rgba(59, 59, 59, 1) 22%, rgba(55, 55, 55, 1) 31%, rgba(56, 56, 56, 1) 34%, rgba(53, 53, 53, 1) 35%, rgba(50, 50, 50, 1) 42%, rgba(45, 45, 45, 1) 46%, rgba(37, 37, 37, 1) 49%, rgba(59, 59, 59, 1) 50%, rgba(59, 59, 59, 1) 97%, rgba(62, 62, 62, 1) 99%, rgba(57, 57, 57, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#806850', endColorstr='#393939', GradientType=0);
+    /* IE6-9 */
+    box-sizing: border-box;
+}
+
+.login {
+    background: url('images/screen.png') no-repeat 2% 4%, -webkit-linear-gradient(top, rgba(59, 59, 59, 0.6) 0%, rgba(59, 59, 59, 0.6) 1%, rgba(42, 42, 42, 1) 95%, rgba(59, 59, 59, 0.9) 100%);
+    /* Chrome10+,Safari5.1+ */
+}
+
+header {
+    border-radius: 12px;
+}
+
+.text {
+    background-color: #3b3b3b;
+    padding: 10px 10px 0px 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.bigWhite {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    padding-left: 76px;
+    padding-top: 20px;
+    letter-spacing: 1.8px;
+    font-family: serif;
+}
+
+form {
+    height: 67px;
+}
+
+input[type="text"] {
+    width: 148px;
+    height: 20px;
+    padding: 0px;
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+input[type="email"] {
+    width: 148px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    background-image: url('images/go button.png');
+    width: 57px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: static;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+h1 {
+    color: #f2d016;
+    font-size: 29px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    letter-spacing: 1.5px;
+}
+
+article p {
+    color: #A2A2A2;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.99px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
