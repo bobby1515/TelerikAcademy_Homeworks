@@ -172,7 +172,7 @@ function solve() {
 
 
 module.exports = solve;
-// testing course
+// testing
 var course = solve().init('js oop', ['lecture1', 'lecture2', 'lecture3', 'lecture4']);
 course.addStudent('Grigor Dimitrov');
 course.addStudent('Peter Georgiev');
