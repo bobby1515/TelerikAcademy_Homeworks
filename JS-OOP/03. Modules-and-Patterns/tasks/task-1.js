@@ -173,23 +173,8 @@ function solve() {
 
 module.exports = solve;
 // testing course
-/*let course = solve().init('js oop', ['lec1', 'lec2', 'lec3', 'lec4']);
-course.addStudent('Milko Kunev');
-course.addStudent('Vera Dimova');
-course.addStudent('Masha Genova');
-course.addStudent('Ivan Peshev');
-course.addStudent('Stoyan Manov');
-
-course.submitHomework(2, 1);
-course.submitHomework(2, 2);
-course.submitHomework(1, 1);
-course.submitHomework(3, 3);
-
-course.pushExamResults([{ StudentID: 1, score: 5 }]);
-course.pushExamResults([{ StudentID: 2, score: 4 }]);
-course.pushExamResults([{ StudentID: 3, score: 6 }]);
-course.pushExamResults([{ StudentID: 4, score: 4 }]);
-course.pushExamResults([{ StudentID: 5, score: 3 }]);
-
-course.getTopStudents();
-console.log(Course());*/
+var course = solve().init('js oop', ['lecture1', 'lecture2', 'lecture3', 'lecture4']);
+course.addStudent('Grigor Dimitrov');
+course.addStudent('Peter Georgiev');
+console.log(course);
+console.log(course.getAllStudents());
